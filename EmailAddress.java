@@ -1,4 +1,4 @@
-import java.util.Scanner;
+
 import java.lang.Math;
 
 public class EmailAddress {
@@ -22,7 +22,9 @@ public class EmailAddress {
         lastName = emailObject.getLname();
         department = emailObject.getDepartment();
 
-            email = firstName+"."+lastName +"@"+"."+department+companySuffix;
+            //email = firstName+"."+lastName +"@"+department+companySuffix;
+
+         email =  firstName.toLowerCase() + "." + lastName.toLowerCase() + "@" + department + "." + companySuffix;
             return email;      
     }
  }
