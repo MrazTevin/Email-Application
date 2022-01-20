@@ -11,7 +11,7 @@ public class Email {
         this.department = department;
     }
 
-    public void setFName(String firstname) {
+    public void setFname(String firstname) {
         this.first_name = firstname;
     }
 
@@ -19,7 +19,7 @@ public class Email {
         return first_name;        
     }
 
-    public void setLName(String lastname) {
+    public void setLname(String lastname) {
         this.last_name = lastname;
     }
 
@@ -43,7 +43,7 @@ public class Email {
         return alternate_email;
     }
     
-    private void setDepartment(String Designation) {  
+    public void setDepartment(String Designation) {  
         this.department = Designation;
     }    
 
